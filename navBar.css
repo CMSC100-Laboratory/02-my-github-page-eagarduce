@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 .page-body {
     background: linear-gradient(135deg, #FFF8EA 0%, #9E7676 100%);
     background-attachment: fixed;
