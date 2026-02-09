@@ -1,0 +1,52 @@
+.about-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    padding: 160px 4rem 8rem 4rem;
+    max-width: 1600px;
+    margin: 0 auto;
+    min-height: 85vh;
+}
+
+.profile-img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid #FFFFFF;
+    box-shadow: 0 15px 35px #00000015;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 20px 45px #00000015;
+}
+
+.about-content {
+    padding: 4rem;
+    border-radius: 50px;
+    flex: 1;
+    max-width: 900px;
+    box-shadow: 0 15px 30px #00000015;
+    font-family: 'Silkscreen', cursive, monospace;
+    text-transform: uppercase;
+    color: #815B5B;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    text-align: justify;
+}
+
+.about-name {
+    color: #594545;
+}
+
+.about-greeting {
+    color: #815B5B;
+}
+
+.about-bio {
+    color: #815B5B;
+}

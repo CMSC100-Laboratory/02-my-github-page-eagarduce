@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Garduce Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="skills.css">
+    <link rel="stylesheet" href="references.css">
+</head>
+
+<body class="page-body">
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="Sealion.png" alt="logo" class="logo-img">
+            </div>
+            <div class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#references" class="nav-link">Contact</a>
+            </div>
+        </nav>
+
+        <section id="about" class="about-section">
+            <div class="about-picture">
+                <img src="Profile.JPG" alt="profile" class="profile-img">
+            </div>
+            <div class="about-content">
+                <h2 class="about-greeting">Hello! I'm </h2>
+                <h1 class="about-name">Earl Ian Garduce</h1>
+                <p class="about-bio">A sophomore computer science student driven by curiosity and a constant desire to grow. I enjoy exploring how ideas turn into systems, and how small lines of code can solve real problems or spark new ones worth investigating.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section">
+            <h2 class="section-title">Projects</h2>
+
+            <div class="project-card featured">
+                <div class="project-content">
+                    <div class="project-header">
+                        <h3 class="project-title">PREPPAL | MERN</h3>
+                        <span class="location-date">Los Baños, Laguna | January 2026</span>
+                    </div>
+                    <h4 class="role-tag">Backend</h4>
+                    <div class="project-details">
+                        <a href="#" class="project-description">I developed the backend of a gamified Go Bag tracking web application centered on disaster preparedness. The system allows users to record, update, and monitor the contents of their emergency kits, helping them stay organized and prepared. Using the MERN stack, I designed and implemented RESTful APIs that handle user authentication, data validation, and full CRUD operations for Go Bag items. I also integrated gamification features such as progress tracking and completion indicators to encourage consistent user engagement. Throughout the project, I collaborated closely with frontend developers to ensure smooth API integration and reliable data flow across the application.</a>
+                    </div>
+                </div>
+                <div class="project-gallery">
+                    <img src="Preppal.png" alt="Preppal Home Page" class="gallery-img">
+                </div>
+            </div>
+
+            <div class="secondary-projects-grid">
+                <div class="project-card secondary">
+                    <div class="project-header">
+                        <h3 class="project-title">BeBlues | Java</h3>
+                        <span class="location-date">Los Baños, Laguna | May 2025</span>
+                    </div>
+                    <div class="project-gallery">
+                        <img src="BeBlues.png" alt="BeBlues" class="gallery-main">
+                    </div>
+                    <div class="project-details">
+                        <a href="#" class="project-description">I developed a comprehensive e-commerce platform focused on delivering a seamless user experience. The system includes secure payment gateway integration, real-time inventory tracking, and detailed transaction logging to ensure reliability and transparency. Additionally, I implemented a digital wallet feature that tracks user balances and determines which items users can purchase, enabling smoother and more controlled transactions within the platform.</a>
+                    </div>
+                </div>
+
+                <div class="project-card secondary">
+                    <div class="project-header">
+                        <h3 class="project-title">AUTOMATED WATERING SYSTEM USING ARDUINO UNO | C++</h3>
+                        <span class="location-date">San Pablo City, Laguna | May 2024</span>
+                    </div>
+                    <div class="project-gallery">
+                        <img src="Automated Watering System.png" alt="Automated Watering System" class="gallery-main">
+                    </div>
+                    <div class="project-details">
+                        <a href="#" class="project-description">I built an automated plant watering system using soil moisture and NPK sensors to monitor soil conditions in real time. The system collects sensor data to determine when irrigation is needed, supporting healthier and more efficient plant care. Using an Arduino Uno, I programmed the irrigation logic in C++ to manage watering cycles and control water flow through relay modules. This setup enabled automated, responsive irrigation based on actual soil conditions rather than fixed schedules.</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section">
+            <h2 class="section-title">Core Expertise</h2>
+            <div class="expertise-grid">
+                <div class="expertise-card">
+                    <h3 class="expertise-title">Programming</h3>
+                    <div class="icons-grid">
+                        <div class="icon-item">
+                            <img src="Python.png" alt="Python" class="icon-img">
+                            <span class="icon-label">Python</span>
+                        </div>
+                        <div class="icon-item">
+                            <img src="Javascript.png" alt="JavaScript" class="icon-img">
+                            <span class="icon-label">JavaScript</span>
+                        </div>
+                        <div class="icon-item">
+                            <img src="Java.png" alt="Java" class="icon-img">
+                            <span class="icon-label">Java</span>
+                        </div>
+                        <div class="icon-item">
+                            <img src="C.png" alt="C" class="icon-img">
+                            <span class="icon-label">C</span>
+                        </div>
+                        <div class="icon-item">
+                            <img src="C++.png" alt="C++" class="icon-img">
+                            <span class="icon-label">C++</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="expertise-card">
+                    <h3 class="expertise-title">Web & Backend</h3>
+                    <div class="icons-grid">
+                        <div class="icon-item">
+                            <img src="React.png" alt="React" class="icon-img">
+                            <span class="icon-label">React</span>
+                        </div>
+                        <div class="icon-item">
+                            <img src="NodeJS.png" alt="Node.js" class="icon-img">
+                            <span class="icon-label">Node.js</span>
+                        </div>
+                        <div class="icon-item">
+                            <img src="ExpressJS.png" alt="Express" class="icon-img">
+                            <span class="icon-label">Express</span>
+                        </div>
+                        <div class="icon-item">
+                            <img src="MongoDB.png" alt="MongoDB" class="icon-img">
+                            <span class="icon-label">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="expertise-card">
+                    <h3 class="expertise-title">DevOps</h3>
+                    <div class="icons-grid">
+                        <div class="icon-item">
+                            <img src="Git.png" alt="Git" class="icon-img">
+                            <span class="icon-label">Git</span>
+                        </div>
+                        <div class="icon-item">
+                            <img src="Github.png" alt="Github" class="icon-img">
+                            <span class="icon-label">Github</span>
+                        </div>
+                        <div class="icon-item">
+                            <img src="Figma.png" alt="Figma" class="icon-img">
+                            <span class="icon-label">Figma</span>
+                        </div>
+                        <div class="icon-item">
+                            <img src="Postman.png" alt="Postman" class="icon-img">
+                            <span class="icon-label">Postman</span>
+                        </div>
+                        <div class="icon-item">
+                            <img src="Docker.png" alt="Docker" class="icon-img">
+                            <span class="icon-label">Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="references" class="contact-section">
+            <h2 class="contact-title">Get in Touch</h2>
+            <p class="contact-description">I'm currently looking for internship opportunities and collaborative projects. Let's build something amazing together.</p>
+            <div class="contact-buttons">
+                <a href="mailto:eagarduce@up.edu.ph" class="contact-btn">eagarduce@up.edu.ph</a>
+                <a href="https://github.com/eagarduce" target="_blank" class="contact-btn">GitHub</a>
+                <a href="https://www.linkedin.com/in/earl-ian-garduce-5412873ab/" target="_blank"
+                    class="contact-btn">LinkedIn</a>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
